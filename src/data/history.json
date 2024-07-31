@@ -1,0 +1,34 @@
+[
+  {
+    "role": "AI Developer",
+    "organisation": "Mavn AI",
+    "startDate": "July, 2024",
+    "endDate": "Present",
+    "experiences": [],
+    "imageSrc": "history/mavn.jpg"
+  },
+  {
+    "role": "Student Technologist",
+    "organisation": "SBU Division of Information Tech",
+    "startDate": "Jan, 2022",
+    "endDate": "Present",
+    "experiences": [],
+    "imageSrc": "history/sbu.png"
+  },
+  {
+    "role": "Information Technology Intern",
+    "organisation": "Techie Youth",
+    "startDate": "Jul, 2021",
+    "endDate": "Aug, 2021",
+    "experiences": [],
+    "imageSrc": "history/techie.jpeg"
+  },
+  {
+    "role": "Data Analysis Intern",
+    "organisation": "NYC Department of Social Services",
+    "startDate": "Jul, 2020",
+    "endDate": "Aug, 2020",
+    "experiences": [],
+    "imageSrc": "history/nyc.jpg"
+  }
+]
