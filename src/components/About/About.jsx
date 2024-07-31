@@ -15,7 +15,6 @@ export const About = () => {
           <h4>Expected Graduation 2025</h4>
           <h4>GPA: 3.82</h4>
         </span>
-        <img src={"../../assets/about/cursonIcon.png"} alt="Cursor icon" />
       </div>
     </section>
   );
