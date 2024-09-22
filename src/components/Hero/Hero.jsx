@@ -1,7 +1,7 @@
 import React from "react";
 
 import styles from "./Hero.module.css";
-import resumePDF from "amritprsingh/Portfolio-Amripreet-Singh/Amritpreet_Singh_Resume2025.pdf"
+import resumePDF from "../../../Amritpreet_Singh_Resume2025.pdf"
 import { getImageUrl } from "../../utils";
 
 export const Hero = () => {
