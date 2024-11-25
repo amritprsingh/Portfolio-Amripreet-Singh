@@ -10,7 +10,7 @@ export const TechProjects = () => {
     <section className={styles.container} id="projects">
       <h2 className={styles.title}>Technical Communication Projects</h2>
       <div className={styles.projects}>
-        {techprojects.map((project, id) => {
+        {projects.map((project, id) => {
           return <TechProjectCard key={id} project={project} />;
         })}
       </div>
