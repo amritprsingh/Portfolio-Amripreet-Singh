@@ -1,7 +1,7 @@
 import React from "react";
 
 import styles from "./Hero.module.css";
-import resumePDF from "../../../Amritpreet_Singh_Resume2025.pdf"
+import resumePDF from "../../../Amritpreet_Singh_Resume2025.pdf";
 import { getImageUrl } from "../../utils";
 
 export const Hero = () => {
@@ -10,9 +10,12 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hello, I am Amritpreet</h1>
         <p className={styles.description}>
-          I'm a Computer Science student with aspirations in Software
-          Development. My experience focusses on full-stack development and data
-          analytics
+          I am currently pursuing a dual BS/MS degree in Computer Science and
+          Applied Mathematics at Stony Brook University, while aiming for a
+          career in software development or data analysis. With expertise in web
+          development, backend/frontend engineering, AI, machine learning, and
+          data science, I hope to leverage my skills in Python, Java, and C to
+          create impactful technological solutions for society.
         </p>
         <span>
           <a
