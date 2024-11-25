@@ -1,26 +1,23 @@
 [
   {
-    "title": "Question Answer Forum",
+    "title": "Media Release",
     "imageSrc": "projects/qapic.png",
-    "description": "QA website hosting multiple users using MERN development",
-    "skills": ["MongoDB", "ReactJS", "Express", "NodeJS", "BCrypt", "Cookies"],
-
-    "source": "https://github.com/amritprsingh/Question-Answer-MERN"
+    "description": "Media Release About Stony Brook University DoIT's Free Tech-Related Workshops",
+    "skills": ["Research", "Media", "Writing"],
+    "source": "https://drive.google.com/file/d/1dVsWPNaHz67sCphwTo7xwPnuzg6ZLLGd/view?usp=sharing"
   },
   {
-    "title": "Youtube API Site",
+    "title": "Technical Instructions",
     "imageSrc": "projects/youtube.png",
-    "description": "Youtube styled video viewing site with real time data from the Youtube Rapid API",
-    "skills": ["ReactJS", "Rapid API", "CSS"],
-    "demo": "https://amritpreetsinghyoutubeapi.netlify.app",
-    "source": "https://github.com/amritprsingh/Youtube-API-Project"
+    "description": "Instructions For Using Meta AI For Image Generation and Creativity",
+    "skills": ["AI", "Writing", "Organization"],
+    "source": "https://drive.google.com/file/d/1d2Ha-__LTdOjae_lz_bpCuSQq99U-3jb/view?usp=sharing"
   },
   {
-    "title": "Wordle 2.0",
+    "title": "Problem-Solving Project",
     "imageSrc": "projects/wordle.png",
-    "description": "Inspired by the Wordle game while being built with additional features and details",
-    "skills": ["ReactJS", "Vite", "SASS"],
-    "demo": "https://amritpreetsinghwordlereact.netlify.app",
-    "source": "https://github.com/amritprsingh/Wordle-React"
+    "description": "Presentation on Solving the Off-Campus Housing Issue at SBU",
+    "skills": ["Analytics", "Research", "Presenting"]
+    "source": "https://drive.google.com/file/d/1qyFWgN4aP3CPKZ-P-kSnnS86KPRHYIyB/view?usp=sharing"
   }
 ]
