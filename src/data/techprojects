@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Media Release",
+    "imageSrc": "projects/qapic.png",
+    "description": "Media Release About Stony Brook University DoIT's Free Tech-Related Workshops",
+    "skills": ["Research", "Media", "Writing"],
+    "source": "https://drive.google.com/file/d/1dVsWPNaHz67sCphwTo7xwPnuzg6ZLLGd/view?usp=sharing"
+  },
+  {
+    "title": "Technical Instructions",
+    "imageSrc": "projects/youtube.png",
+    "description": "Instructions For Using Meta AI For Image Generation and Creativity",
+    "skills": ["AI", "Writing", "Organization"],
+    "source": "https://drive.google.com/file/d/1d2Ha-__LTdOjae_lz_bpCuSQq99U-3jb/view?usp=sharing"
+  },
+  {
+    "title": "Problem-Solving Project",
+    "imageSrc": "projects/wordle.png",
+    "description": "Presentation on Solving the Off-Campus Housing Issue at SBU",
+    "skills": ["Analytics", "Research", "Presenting"]
+    "source": "https://drive.google.com/file/d/1qyFWgN4aP3CPKZ-P-kSnnS86KPRHYIyB/view?usp=sharing"
+  }
+]
