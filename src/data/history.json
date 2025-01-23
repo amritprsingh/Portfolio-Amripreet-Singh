@@ -1,19 +1,35 @@
 [
   {
-    "role": "AI Developer",
-    "organisation": "Mavn AI",
-    "startDate": "July, 2024",
+    "role": "Backend Developer",
+    "organisation": "Ding Carpool",
+    "startDate": "December, 2024",
     "endDate": "Present",
     "experiences": [],
-    "imageSrc": "history/mavn.jpg"
+    "imageSrc": "history/ding.jpeg"
   },
   {
-    "role": "Student Technologist",
+    "role": "Data Engineering Intern",
+    "organisation": "GreenTree Capital",
+    "startDate": "November, 2024",
+    "endDate": "Present",
+    "experiences": [],
+    "imageSrc": "history/green.jpeg"
+  },
+  {
+    "role": "ATS Lead Technologist",
     "organisation": "SBU Division of Information Tech",
     "startDate": "Jan, 2022",
     "endDate": "Present",
     "experiences": [],
     "imageSrc": "history/sbu.png"
+  },
+  {
+    "role": "AI Developer",
+    "organisation": "Mavn AI",
+    "startDate": "July, 2024",
+    "endDate": "December, 2024",
+    "experiences": [],
+    "imageSrc": "history/mavn.jpg"
   },
   {
     "role": "Information Technology Intern",
