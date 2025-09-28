@@ -10,10 +10,9 @@ export const About = () => {
       <div>
         <span className="education">
           <h2>Stony Brook University</h2>
-          <p>Double Major in Computer Science and Applied Mathematics</p>
-          <p>Accelerated Masters Program in Computer Science</p>
-          <h4>Expected Graduation 2025</h4>
-          <h4>GPA: 3.82</h4>
+          <p>Masters of Science in Computer Science (May 2026)</p>
+          <p>B.S. Honors in Computer Science (May 2025)</p>
+          <h4>GPA: 3.85</h4>
         </span>
       </div>
     </section>

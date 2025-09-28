@@ -10,14 +10,14 @@
     "title": "Analysis of a Large Joke Corpora",
     "imageSrc": "projects/joke.png",
     "description": "Testing Synthetic SFW/NSFW Joke Pairs to Improve Humor Detection Models",
-    "skills": ["NLP", "Transformers", "Synthetic Data Generation"],
+    "skills": ["NLP", "Transformers", "Data Generation"],
     "source": "https://drive.google.com/file/d/1JTeu9F72Vrc-URBW4YGiFYf6GzJKIQo1/view?usp=sharing"
   },
   {
     "title": "Greybox Fuzzing in Action",
     "imageSrc": "projects/fuzzer.png",
     "description": "Compared Fuzzers (AFLNet, StateAFL, Tango, etc.) for Bug-Finding Effectiveness",
-    "skills": ["Fuzzing", "Network Protocols", "Coverage-Guided Testing"],
+    "skills": ["Fuzzing", "Network Protocols", "Testing"],
     "source": "https://drive.google.com/file/d/1MEqtQGC93eJz8ktxIxwd9Zr_z5ga7R4C/view?usp=sharing"
   }
 ]
