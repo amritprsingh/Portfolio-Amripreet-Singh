@@ -17,7 +17,7 @@
     "title": "Greybox Fuzzing in Action",
     "imageSrc": "projects/fuzzer.png",
     "description": "Compared Fuzzers (AFLNet, StateAFL, Tango, etc.) for Bug-Finding Effectiveness",
-    "skills": ["Fuzzing", "Network Protocols", "Testing"],
+    "skills": ["Fuzzing", "QA", "Network Protocols"],
     "source": "https://drive.google.com/file/d/1MEqtQGC93eJz8ktxIxwd9Zr_z5ga7R4C/view?usp=sharing"
   }
 ]
