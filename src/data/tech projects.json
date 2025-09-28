@@ -1,23 +1,23 @@
 [
   {
-    "title": "Media Release",
-    "imageSrc": "projects/qapic.png",
-    "description": "Media Release About Stony Brook University DoIT's Free Tech-Related Workshops",
-    "skills": ["Research", "Media", "Writing"],
-    "source": "https://drive.google.com/file/d/1dVsWPNaHz67sCphwTo7xwPnuzg6ZLLGd/view?usp=sharing"
+    "title": "Palette-Guided Image Colorization",
+    "imageSrc": "projects/color.png",
+    "description": "Machine Learning Convolutional Encoder-Decoder Model to Colorize Grayscale Images",
+    "skills": ["PyTorch", "CNN", "CIFAR-10"],
+    "source": "https://drive.google.com/file/d/1Ypt4KlW5KJj9JK4KO6OhnDceRKYIadqZ/view?usp=sharing"
   },
   {
-    "title": "Technical Instructions",
-    "imageSrc": "projects/youtube.png",
-    "description": "Instructions For Using Meta AI For Image Generation and Creativity",
-    "skills": ["AI", "Writing", "Organization"],
-    "source": "https://drive.google.com/file/d/1d2Ha-__LTdOjae_lz_bpCuSQq99U-3jb/view?usp=sharing"
+    "title": "Analysis of a Large Joke Corpora",
+    "imageSrc": "projects/joke.png",
+    "description": "Testing Synthetic SFW/NSFW Joke Pairs to Improve Humor Detection Models",
+    "skills": ["NLP", "Transformers", "Synthetic Data Generation"],
+    "source": "https://drive.google.com/file/d/1JTeu9F72Vrc-URBW4YGiFYf6GzJKIQo1/view?usp=sharing"
   },
   {
-    "title": "Problem-Solving Project",
-    "imageSrc": "projects/wordle.png",
-    "description": "Presentation on Solving the Off-Campus Housing Issue at SBU",
-    "skills": ["Analytics", "Research", "Presenting"]
-    "source": "https://drive.google.com/file/d/1qyFWgN4aP3CPKZ-P-kSnnS86KPRHYIyB/view?usp=sharing"
+    "title": "Greybox Fuzzing in Action",
+    "imageSrc": "projects/fuzzer.png",
+    "description": "Compared Fuzzers (AFLNet, StateAFL, Tango, etc.) for Bug-Finding Effectiveness",
+    "skills": ["Fuzzing", "Network Protocols", "Coverage-Guided Testing"],
+    "source": "https://drive.google.com/file/d/1MEqtQGC93eJz8ktxIxwd9Zr_z5ga7R4C/view?usp=sharing"
   }
 ]

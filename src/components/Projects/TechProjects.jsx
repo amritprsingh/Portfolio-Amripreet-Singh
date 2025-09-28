@@ -8,7 +8,7 @@ import { TechProjectCard } from "./TechProjectCard";
 export const TechProjects = () => {
   return (
     <section className={styles.container} id="projects">
-      <h2 className={styles.title}>Technical Communication Projects</h2>
+      <h2 className={styles.title}>Research Projects / Papers</h2>
       <div className={styles.projects}>
         {projects.map((project, id) => {
           return <TechProjectCard key={id} project={project} />;

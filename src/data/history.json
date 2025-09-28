@@ -1,27 +1,35 @@
 [
   {
+    "role": "Software Developer",
+    "organisation": "HavenSmart, LLC",
+    "startDate": "May, 2025",
+    "endDate": "Present",
+    "experiences": [],
+    "imageSrc": "history/havensmart.jpeg"
+  },
+  {
     "role": "Backend Developer",
     "organisation": "Ding Carpool",
     "startDate": "December, 2024",
-    "endDate": "Present",
+    "endDate": "May, 2025",
     "experiences": [],
     "imageSrc": "history/ding.jpeg"
-  },
-  {
-    "role": "Data Engineering Intern",
-    "organisation": "GreenTree Capital",
-    "startDate": "November, 2024",
-    "endDate": "Present",
-    "experiences": [],
-    "imageSrc": "history/green.jpeg"
   },
   {
     "role": "ATS Lead Technologist",
     "organisation": "SBU Division of Information Tech",
     "startDate": "Jan, 2022",
-    "endDate": "Present",
+    "endDate": "May, 2025",
     "experiences": [],
     "imageSrc": "history/sbu.png"
+  },
+  {
+    "role": "Data Engineering Intern",
+    "organisation": "GreenTree Capital",
+    "startDate": "November, 2024",
+    "endDate": "April, 2025",
+    "experiences": [],
+    "imageSrc": "history/green.jpeg"
   },
   {
     "role": "AI Developer",
@@ -30,21 +38,5 @@
     "endDate": "December, 2024",
     "experiences": [],
     "imageSrc": "history/mavn.jpg"
-  },
-  {
-    "role": "Information Technology Intern",
-    "organisation": "Techie Youth",
-    "startDate": "Jul, 2021",
-    "endDate": "Aug, 2021",
-    "experiences": [],
-    "imageSrc": "history/techie.jpeg"
-  },
-  {
-    "role": "Data Analysis Intern",
-    "organisation": "NYC Department of Social Services",
-    "startDate": "Jul, 2020",
-    "endDate": "Aug, 2020",
-    "experiences": [],
-    "imageSrc": "history/nyc.jpg"
   }
 ]

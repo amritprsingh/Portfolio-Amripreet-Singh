@@ -10,12 +10,13 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hello, I am Amritpreet</h1>
         <p className={styles.description}>
-          I am currently pursuing a dual BS/MS degree in Computer Science and
-          Applied Mathematics at Stony Brook University, while aiming for a
-          career in software development or data analysis. With expertise in web
-          development, backend/frontend engineering, AI, machine learning, and
-          data science, I hope to leverage my skills in Python, Java, and C to
-          create impactful technological solutions for society.
+          I am currently pursuing Masters of Science in Computer Science degree
+          at Stony Brook University, while aiming for a career in software
+          development or data analysis. With expertise in web development,
+          backend/frontend engineering, AI, machine learning, and data science,
+          I hope to leverage my skills in programming languages such as Python,
+          Java, and SQL, to create impactful technological solutions for
+          society.
         </p>
         <span>
           <a

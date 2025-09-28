@@ -1,6 +1,6 @@
 [
   {
-    "title": "Question Answer Forum",
+    "title": "QueryHub - Q&A Forum",
     "imageSrc": "projects/qapic.png",
     "description": "QA website hosting multiple users using MERN development",
     "skills": ["MongoDB", "ReactJS", "Express", "NodeJS", "BCrypt", "Cookies"],
