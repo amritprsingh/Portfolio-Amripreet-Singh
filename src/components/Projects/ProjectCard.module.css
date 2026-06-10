@@ -1,65 +1,93 @@
 @import "../../vars.css";
 
+/*
+  Max 4 per row: flex-basis uses 23% of the container.
+  On 1928px: 23% = 443px → 443-20 = 423px card. 4*423 + 3*22 gap = 1758px (fills ~91%). ✓
+  On 1300px: 23% = 299px → 279px. 4 cards: 4*279+3*22 = 1182<1300. ✓
+  On 900px: 23% = 207px → clamped to 260px min. 3 per row: 3*260+2*22=824<900. ✓
+  On 560px: 260px min. 2 per row: 2*260+22=542<560. ✓
+  On 375px: 260px min, 1 per row. ✓
+*/
 .container {
+  flex: 0 0 clamp(260px, calc(23% - 20px), 460px);
   display: flex;
   flex-direction: column;
-  border-radius: 10px;
-  background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
-  box-shadow: 0 16px 14px 0 #04152d;
-  padding: 18px 24px;
-  max-width: 345px;
+  border-radius: 14px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  padding: clamp(18px, 2vw, 28px);
+  transition: transform 0.22s ease, border-color 0.22s ease, box-shadow 0.22s ease, background 0.22s ease;
+}
+
+.container:hover {
+  transform: translateY(-5px);
+  border-color: transparent;
+  background:
+    linear-gradient(var(--color-surface), var(--color-surface)) padding-box,
+    var(--gradient-accent) border-box;
+  box-shadow: 0 12px 40px rgba(34, 211, 238, 0.1);
 }
 
 .image {
-  margin-bottom: 26px;
+  width: 100%;
+  height: clamp(140px, 14vw, 220px);
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: clamp(14px, 1.5vw, 20px);
 }
 
 .title {
-  font-size: 25px;
+  font-size: clamp(1rem, 1.3vw, 1.3rem);
   font-weight: 700;
+  color: var(--color-text);
 }
 
 .description {
-  margin-top: 6px;
-  font-size: 25px;
-  font-weight: 400;
+  margin-top: 8px;
+  font-size: clamp(0.88rem, 1vw, 1rem);
+  color: var(--color-text-muted);
+  line-height: 1.65;
+  flex: 1;
 }
 
 .skills {
   width: 100%;
-  margin-top: 14px;
+  margin-top: clamp(12px, 1.5vw, 18px);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 6px;
+  gap: 7px;
   list-style: none;
 }
 
 .skill {
-  font-size: 25px;
-  font-weight: 400;
-  border-radius: 100px;
-  background: var(--color-dark);
-  padding: 2px 22px;
+  font-size: clamp(0.78rem, 0.9vw, 0.9rem);
+  font-weight: 500;
+  border-radius: 6px;
+  background: var(--color-accent-dim);
+  color: var(--color-accent);
+  padding: 4px 12px;
 }
 
 .links {
   width: 100%;
-  margin-top: 26px;
+  margin-top: clamp(14px, 1.8vw, 22px);
   display: flex;
-  justify-content: space-around;
-}
-
-.link:hover {
-  background-color: purple;
+  gap: 10px;
 }
 
 .link {
   text-decoration: none;
-  color: var(--color-text);
-  font-size: 30px;
-  font-weight: 600;
-  border-radius: 100px;
-  background: var(--color-primary);
-  padding: 1px 22px;
+  color: var(--color-text-muted);
+  font-size: clamp(0.82rem, 1vw, 0.95rem);
+  font-weight: 500;
+  border-radius: 7px;
+  border: 1px solid var(--color-border);
+  padding: 8px 18px;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.link:hover {
+  color: var(--color-accent);
+  border-color: var(--color-accent);
 }

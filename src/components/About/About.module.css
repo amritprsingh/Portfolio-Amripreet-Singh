@@ -1,64 +1,99 @@
 @import "../../vars.css";
 
 .container {
-  position: relative;
-  background-color: rgb(1, 57, 97);
-  border-radius: 15px;
-  padding: 30px;
-  margin-top: 60px;
-  z-index: 1;
-  margin-left: 10%;
-  margin-right: 10%;
-  text-align: center;
-  width: 80%;
+  width: 100%;
+  padding: clamp(56px, 7vh, 96px) 0;
 }
 
-span {
-  display: block;
-  color: aqua;
-  font-size: 1.5rem;
-  margin-bottom: 30px;
-}
-
-img {
-  margin-bottom: 0px;
-}
-
-h4 {
-  font-style: italic;
-  color: rgb(7, 162, 162);
+.inner {
+  padding: 0 clamp(24px, 7vw, 100px);
+  color: var(--color-text);
 }
 
 .title {
-  color: var(--color-text);
-  font-size: 35px;
+  font-size: clamp(1.3rem, 2.2vw, 2rem);
   font-weight: 700;
-  letter-spacing: 1.75px;
+  letter-spacing: 3px;
   text-transform: uppercase;
-  margin-bottom: 30px;
+  margin-bottom: clamp(32px, 4vw, 56px);
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
-@media screen and (max-width: 830px) {
-  .container {
-    background-color: transparent;
-    padding-left: 0;
-    padding-right: 0;
-  }
+.title::before {
+  content: "";
+  display: block;
+  width: 32px;
+  height: 3px;
+  background: var(--gradient-accent);
+  border-radius: 2px;
+  flex-shrink: 0;
+}
 
-  .content {
-    flex-direction: column;
-  }
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 14px;
+  padding: clamp(24px, 2.8vw, 40px) clamp(24px, 3vw, 44px);
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  transition: border-color 0.25s, background 0.25s;
+}
 
-  .aboutImage {
-    display: none;
-  }
+.card:hover {
+  border-color: transparent;
+  background:
+    linear-gradient(var(--color-surface), var(--color-surface)) padding-box,
+    var(--gradient-accent) border-box;
+}
 
-  .aboutItems {
-    margin-top: 29px;
-  }
+.school {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+}
 
-  .aboutItem {
-    padding-left: 0;
-    padding-right: 0;
-  }
+.schoolName {
+  font-size: clamp(1.15rem, 1.6vw, 1.5rem);
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.location {
+  font-size: clamp(0.88rem, 1vw, 1rem);
+  color: var(--color-text-muted);
+}
+
+.degrees {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.degree {
+  padding-left: 18px;
+  border-left: 2px solid var(--color-accent);
+}
+
+.degreeTitle {
+  font-size: clamp(0.95rem, 1.2vw, 1.15rem);
+  font-weight: 500;
+  color: var(--color-text);
+  line-height: 1.5;
+}
+
+.degreeMeta {
+  font-size: clamp(0.82rem, 1vw, 0.98rem);
+  color: var(--color-text-muted);
+  margin-top: 4px;
+}
+
+@media screen and (max-width: 600px) {
+  .school { flex-direction: column; gap: 2px; }
+  .inner { padding: 0 20px; }
 }

@@ -1,50 +1,22 @@
 [
   {
-    "title": "Python",
-    "imageSrc": "skills/python.png"
+    "category": "Languages",
+    "items": ["Python", "JavaScript", "TypeScript", "Java", "C/C++", "SQL", "Bash"]
   },
   {
-    "title": "React",
-    "imageSrc": "skills/react.png"
+    "category": "Frameworks & Libraries",
+    "items": ["React", "Node.js", "Express", "FastAPI", "Flask", "Angular", "Socket.io", "Pandas", "NumPy"]
   },
   {
-    "title": "Node",
-    "imageSrc": "skills/node.png"
+    "category": "Databases",
+    "items": ["PostgreSQL", "MongoDB", "MySQL", "Redis"]
   },
   {
-    "title": "HTML",
-    "imageSrc": "skills/html.png"
+    "category": "Cloud & DevOps",
+    "items": ["AWS", "Docker", "GitHub Actions", "Git", "Linux", "CI/CD"]
   },
   {
-    "title": "CSS",
-    "imageSrc": "skills/css.png"
-  },
-  {
-    "title": "JavaScript",
-    "imageSrc": "skills/javascript.png"
-  },
-  {
-    "title": "MongoDB",
-    "imageSrc": "skills/mongodb.png"
-  },
-  {
-    "title": "C",
-    "imageSrc": "skills/c.png"
-  },
-  {
-    "title": "Tableau",
-    "imageSrc": "skills/tableau.png"
-  },
-  {
-    "title": "SQL",
-    "imageSrc": "skills/sql.png"
-  },
-  {
-    "title": "Excel",
-    "imageSrc": "skills/excel.png"
-  },
-  {
-    "title": "Figma",
-    "imageSrc": "skills/fig.png"
+    "category": "AI & ML",
+    "items": ["LangChain", "PyTorch", "Scikit-learn", "OpenAI API", "RAG", "NLP"]
   }
 ]

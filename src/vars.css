@@ -1,11 +1,21 @@
 :root {
-  /* Colours */
-  --color-text: #fff;
-  --color-primary: #576cbc;
-  --color-secondary: #3975e4;
-  --color-dark: #0260a9;
-  --color-bg: #1a6de2;
+  /* Dark Electric palette — distinct cyan + violet accent, not generic purple */
+  --color-bg: #08080e;
+  --color-surface: #0f0f1b;
+  --color-surface-2: #161628;
+  --color-border: rgba(255, 255, 255, 0.07);
+  --color-border-accent: rgba(34, 211, 238, 0.35);
 
-  /* Fonts */
+  --color-text: #eef0ff;
+  --color-text-muted: #6e7a9a;
+
+  --color-accent: #22d3ee;        /* cyan-400 */
+  --color-accent-2: #a78bfa;      /* violet-400 — used in gradients */
+  --color-accent-hover: #06b6d4;  /* cyan-500 */
+  --color-accent-dim: rgba(34, 211, 238, 0.08);
+
+  /* Gradient used on hero name and hover borders */
+  --gradient-accent: linear-gradient(135deg, #22d3ee 0%, #a78bfa 100%);
+
   --font-roboto: "Roboto";
 }
